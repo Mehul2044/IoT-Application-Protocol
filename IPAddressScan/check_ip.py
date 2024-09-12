@@ -18,7 +18,7 @@ def check_mqtt_service(ip, port):
 
 # Define a list of IP addresses to check
 ip_addresses = ["45.41.94.174", "192.56.226.148", "83.220.247.170", "80.81.224.254", "92.134.111.203", "185.73.39.214",
-                "10.0.49.110"]
+                "10.0.49.110", "45.192.214.51"]
 
 # Check each IP address in the list
 for ip_address in ip_addresses:

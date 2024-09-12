@@ -81,3 +81,6 @@ try:
 except KeyboardInterrupt:
     subprocess.call('clear', shell=True)
     print('ERROR: unexpected attack stop')
+
+# connection refuse: 68789
+# connection accept: 1021
